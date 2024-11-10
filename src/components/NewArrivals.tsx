@@ -49,7 +49,8 @@ const NewArrivals = ({ id }: { id: string }) => {
 
         {/* Card 3 */}
         <div className="bg-gray-200 hover:bg-white  p-6 rounded-lg shadow-lg text-left">
-          <Image src="/image3.png" alt="Full Sweater" width={300} height={400} className="rounded-md mb-4" />
+        <img src="/image3.png" alt="Shiny Dress" width={300} height={400} 
+ className="rounded-md mb-4" />
           <h3 className="text-lg font-bold mb-2">Full Sweater</h3>
           <p className="text-sm text-gray-500">Winter Collection</p>
           <p className="text-lg font-bold mt-2">$99.50</p>
