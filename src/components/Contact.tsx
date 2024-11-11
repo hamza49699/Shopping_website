@@ -14,7 +14,7 @@ const Contact = ({ id }: { id: string }) => {
                 alt="Descriptive text for image 2"
                 width={500}
                 height={600}
-                className="w-full h-auto"
+                className="w-full h-auto object-cover"
               />
             </div>
 
@@ -28,15 +28,15 @@ const Contact = ({ id }: { id: string }) => {
                 duis ultrices sollicitudin aliquam.
               </p>
 
-              <form className="mt-6 flex justify-center lg:justify-start">
+              <form className="mt-6 flex justify-center lg:justify-start flex-wrap">
                 <input
                   type="text"
                   placeholder="Drop your Message"
-                  className="w-full max-w-xs px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-black focus:border-transparent"
+                  className="w-full max-w-xs px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-black focus:border-transparent mb-4 lg:mb-0"
                 />
                 <button
                   type="submit"
-                  className="ml-4 px-6 py-2 bg-black text-white font-semibold rounded-md hover:bg-gray-800 focus:outline-none"
+                  className="ml-4 px-6 py-2 bg-black text-white font-semibold rounded-md hover:bg-gray-800 focus:outline-none mt-10"
                 >
                   Send Message
                 </button>
@@ -50,10 +50,26 @@ const Contact = ({ id }: { id: string }) => {
                 alt="Descriptive text for image 3"
                 width={500}
                 height={600}
-                className="w-full h-auto"
+                className="w-full h-auto object-cover"
               />
             </div>
           </div>
+
+          {/* Navbar (if you want it here, hide on small screens) */}
+          <ul className="gap-10 lg:gap-16 hidden lg:flex font-bold text-2xl mt-8 justify-center">
+            <li className="menuLink">
+              <a href="#hero">Home</a>
+            </li>
+            <li className="menuLink">
+              <a href="#NewArrivals">New Arrivals</a>
+            </li>
+            <li className="menuLink">
+              <a href="#Deals">Deals</a>
+            </li>
+            <li className="menuLink">
+              <a href="#Contact">Contact</a>
+            </li>
+          </ul>
         </div>
       </section>
     </div>

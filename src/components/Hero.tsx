@@ -5,7 +5,7 @@ const Hero = () => {
   return (
     <div className="flex flex-col items-center min-h-screen bg-gray-100">
       {/* Heading outside the container */}
-      <h1 className="text-7xl font-extrabold text-black mb-16 mt-10 text-center">ULTIMATE SALES</h1>
+      <h1 className="text-7xl font-extrabold text-black mb-16 mt-16 text-center">ULTIMATE SALES</h1>
 
       {/* Centered Container */}
       <div className="bg-gray-300 p-12 rounded-lg w-11/12 sm:w-3/4 md:w-2/3 lg:w-1/2 xl:w-1/3 hover:bg-white">

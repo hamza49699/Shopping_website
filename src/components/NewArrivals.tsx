@@ -1,4 +1,5 @@
 import React from 'react'
+import Link from 'next/link'
 import Image from 'next/image'
 
 const NewArrivals = ({ id }: { id: string }) => {
@@ -101,3 +102,5 @@ const NewArrivals = ({ id }: { id: string }) => {
 }
 
 export default NewArrivals
+
+

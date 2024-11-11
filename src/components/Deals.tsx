@@ -1,9 +1,11 @@
 import React from 'react'
 import Image from 'next/image'
 
+
 const Deals = ({ id }: { id: string }) => {
   return (
     <div id={id}>
+      
       {/* First Section - Brand Names */}
       <section className="flex flex-wrap justify-center space-x-12 py-8 bg-gray-200">
         <p className="text-2xl font-semibold tracking-wider uppercase text-gray-800 mb-4 md:mb-0">CHANEL</p>
